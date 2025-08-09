@@ -8,12 +8,18 @@ public class ClientController {
 	@GetMapping("/")
 	public String home()
 	{
-		return "CI/CD and cloud Devops";
+		return "CI/CD and CloudDevOps";
 	}
 	@GetMapping("/demo")
 	public String demo()
 	{
-		return "jenkins Demo";
+		return "Jenkins Demo";
+	}
+	
+	@GetMapping("/test")
+	public String test()
+	{
+		return "Deploy Spring Boot using Jenkins";
 	}
 
 }
